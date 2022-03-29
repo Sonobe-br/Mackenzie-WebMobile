@@ -1,7 +1,7 @@
 /* Variáveis */
 :root {
 
-    --backgroundColor: #f0f0f0;
+    --backgroundC01olor: #f0f0f0;
     --cardColor: #ffffff;
     --fontColor: #3b3b3b;
     --shadowColor: rgba(0, 0, 0, 0.2);
@@ -41,7 +41,6 @@ article {
     border-radius: 10px;
     margin: 20px;
     padding: 20px;
-
 
 }
 
