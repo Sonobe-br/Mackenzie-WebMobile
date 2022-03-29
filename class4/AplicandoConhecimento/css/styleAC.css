@@ -1,0 +1,80 @@
+/* Variáveis */
+:root {
+
+    --backgroundC01olor: #f0f0f0;
+    --cardColor: #ffffff;
+    --fontColor: #3b3b3b;
+    --shadowColor: rgba(0, 0, 0, 0.2);
+
+}
+
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/* Reset */
+html, body {
+
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+
+/* Estilos básicoas */
+* {
+
+    font-family: 'Roboto', 'sans-serif';
+    color: var(--fontColor);
+
+}
+
+body {
+
+    background-color: var(--backgroundColor);
+
+}
+
+article {
+
+    background-color: var(--cardColor);
+    box-shadow: 0 0 10px var(--shadowColor);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+
+
+}
+
+article img {
+
+    width: 80%;
+}
+
+/* Mobile */
+* {
+
+    font-size: 20pt;
+}
+
+/* Outros tamanhos*/
+@media only screen and (min-width: 920px) {
+
+    * {
+
+        font-size: 14pt;
+        
+    }
+
+    body {
+
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    article {
+
+        width: 30%;
+    }
+}
+
