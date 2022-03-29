@@ -47,7 +47,8 @@ article {
 
 article img {
 
-    width: 80%;
+    width: 30%;
+    height: 80%;
 }
 
 /* Mobile */
@@ -75,6 +76,7 @@ article img {
     article {
 
         width: 30%;
+        height: 90%;
     }
 }
 
