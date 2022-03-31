@@ -40,3 +40,22 @@ text-align: center;
 
 }
 
+#content article p {
+
+    padding: 0 10px;
+    width: calc(100% - 20px);
+
+}
+
+#content article p span {
+
+    height: 10px;
+    display: block;
+    background-color: #7fffd4;
+    margin-top: 5px; 
+    border-radius: 5px;
+
+}
+
+
+

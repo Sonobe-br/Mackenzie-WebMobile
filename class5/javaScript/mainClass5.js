@@ -1,5 +1,14 @@
 const BASE_URL = 'https://superheroapi.com/api.php/' + '5387975534559627';
 const API_KEY = ''; /* Token */
+let url = BASE_URL + "/69";
+
+callAPI (url, function (status, response) {
+
+    console.log (response);
+
+}); 
+
+/* Posição bloco1 */
 
 let minhaCarta = [12, 33, 44];
 let cartaSelecionada = 12;
@@ -30,7 +39,7 @@ function getAndShowHero () {
         let image = data.powerstats.image
 
         document.getElementById('content').innerHTML += "<article> <img src = '"+ image + "'/>" + 
-        "<h1>"+ name + "</h1>" + 
+        "<h1>" + name + "</h1>" + 
         "<p>Intelligence:   <span style='width:" + intelligence +  "%; background-color: #F9B32F'></span></p>" +  
         "<p>Strength:       <span style='width:" + strenght +      "%; background-color: #FF7C6C'></span></p>" + 
         "<p>Speed:          <span style='width:" + speed +         "%; background-color: #22A7F0'></span></p>" + 
@@ -40,16 +49,10 @@ function getAndShowHero () {
         "</article>";
 
     });
+    
 };
 
-
-let url = BASE_URL + "/69";
-
-callAPI (url, function (status, response) {
-
-    console.log (response);
-
-});
+/* Posição bloco1 */
 
 function callAPI (url, callback) {
 
