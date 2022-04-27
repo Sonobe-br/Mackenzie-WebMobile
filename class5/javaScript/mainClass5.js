@@ -1,6 +1,6 @@
 const BASE_URL = 'https://superheroapi.com/api.php/5387975534559627'; 
 const API_KEY = ''; /* Token */
-let url = BASE_URL + "/341";
+let url = BASE_URL + "/346";
 
 /* Posição bloco1 */
 
@@ -29,16 +29,17 @@ function getAndShowHero () {
         let durability = data.powerstats.durability
         let power = data.powerstats.power
         let combat = data.powerstats.combat
+        let strenght = data.powerstats.strenght
         let image = data.powerstats.image
 
         document.getElementById('content').innerHTML += 
         "<article> <img src ='" + image + "'/>" + 
         "<h1>" + name + "</h1>" + 
-        "<p>Intelligence:   <span style='width:" + intelligence +  "%; background-color: #F9B32F'></span></p>" +  
-        "<p>Speed:          <span style='width:" + speed +         "%; background-color: #22A7F0'></span></p>" + 
-        "<p>Durability:     <span style='width:" + durability +    "%; background-color: #3EDC81'></span></p>" + 
-        "<p>Power:          <span style='width:" + power +         "%; background-color: #AB69C6'></span></p>" + 
-        "<p>Combat:         <span style='width:" + combat +        "%; background-color: #9CAAB9'></span></p>" + 
+        "<p>Intelligence: <span style='width:" + intelligence + "%; background-color: #F9B32F'></span></p>" +  
+        "<p>Speed: <span style='width:" + speed + "%; background-color: #22A7F0'></span></p>" + 
+        "<p>Durability: <span style='width:" + durability + "%; background-color: #3EDC81'></span></p>" + 
+        "<p>Power: <span style='width:" + power + "%; background-color: #AB69C6'></span></p>" + 
+        "<p>Combat: <span style='width:" + combat + "%; background-color: #9CAAB9'></span></p>" + 
         "</article>";
 
     });
